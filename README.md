@@ -1,2 +1,3 @@
 # CurrencyApp
- To exercise that integration for WebAPI
+
+To practice use and get data from Web API.
