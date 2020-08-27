@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <span class="header_title"
+        >Currency Rate <i class="fas fa-angle-double-right"></i
+      ></span>
+      <div class="header__rates">
+        <span>현재의 원엔환율은 1원당 </span
+        ><span class="header__rates__num"></span>
+      </div>
+    </header>
+    <main class="main">
+      <h1>How many wanna change?</h1>
+      <form><input type="text" /></form>
+      <span class="main_clock"></span>
+      <span class="result"></span>
+    </main>
+    <footer class="footer">
+      <i class="fas fa-won-sign"></i>
+      <i class="fas fa-dollar-sign"></i>
+      <i class="fas fa-euro-sign"></i>
+      <i class="fas fa-yen-sign"></i>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
